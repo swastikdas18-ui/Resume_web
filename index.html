@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swastik Das | Portfolio Resume</title>
+    <meta
+      name="description"
+      content="A cinematic portfolio resume for Swastik Das, focused on responsive web development, UI design, and modern frontend work."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home section">
+        <span class="brand-mark">SD</span>
+        <span class="brand-text">
+          <strong>Swastik Das</strong>
+          <small>Portfolio Resume</small>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-media" aria-hidden="true">
+          <video autoplay muted loop playsinline poster="assets/Profile-pic.jpg">
+            <source src="assets/Background1.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">Frontend Developer | UI Builder | Fast Learner</p>
+            <h1>
+              I build clean, interactive web experiences that feel
+              <span>confident on first look.</span>
+            </h1>
+            <p class="hero-description">
+              I'm Swastik Das, a developer focused on responsive websites,
+              practical JavaScript, and polished user interfaces. I enjoy
+              turning ideas into layouts that look sharp, move smoothly, and
+              stay usable across devices.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="#contact">Let's Connect</a>
+            </div>
+
+            <div class="hero-metrics">
+              <article class="metric-card">
+                <strong>7</strong>
+                <span>Core technologies in my current stack</span>
+              </article>
+              <article class="metric-card">
+                <strong>3</strong>
+                <span>Main strengths: layout, interaction, responsiveness</span>
+              </article>
+              <article class="metric-card">
+                <strong>1</strong>
+                <span>Goal: build products that feel modern and reliable</span>
+              </article>
+            </div>
+          </div>
+
+          <aside class="hero-spotlight panel" data-reveal>
+            <div class="spotlight-photo-wrap">
+              <img
+                class="spotlight-photo"
+                src="assets/Profile-pic.jpg"
+                alt="Portrait of Swastik Das"
+              />
+            </div>
+
+            <div class="spotlight-copy">
+              <p class="eyebrow">Current Focus</p>
+              <h2>Building better frontend habits through real projects.</h2>
+              <p>
+                I'm sharpening my skills with UI cloning, responsive layouts,
+                JavaScript interactions, React fundamentals, and practical
+                backend learning with Node and Python.
+              </p>
+            </div>
+
+            <div class="stack-cloud" aria-label="Technology stack highlights">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Node</span>
+              <span>Python</span>
+              <span>Java</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">About Me</p>
+          <h2>What I bring to a project</h2>
+          <p>
+            I like building websites that balance visual energy with clear
+            structure. My workflow is centered around clean code, responsive
+            design, and steady iteration until a page feels finished instead of
+            just functional.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="panel about-story" data-reveal>
+            <h3>My approach</h3>
+            <p>
+              I learn best by building. Recreating familiar interfaces,
+              improving small interactions, and experimenting with layout gives
+              me a deeper understanding of how strong frontend work actually
+              feels in practice.
+            </p>
+            <p>
+              I care about spacing, hierarchy, hover states, motion, and the
+              small details that make a portfolio feel personal instead of
+              generic.
+            </p>
+          </article>
+
+          <article class="panel about-highlights" data-reveal>
+            <h3>What I'm actively developing</h3>
+            <ul class="check-list">
+              <li>Responsive landing pages and personal websites</li>
+              <li>JavaScript-driven components and smooth UI behavior</li>
+              <li>React-based interfaces and reusable thinking</li>
+              <li>Practical backend foundations with Node.js and Python</li>
+            </ul>
+          </article>
+
+          <article class="panel about-values" data-reveal>
+            <h3>How I like to work</h3>
+            <div class="value-list">
+              <div>
+                <strong>Design-aware</strong>
+                <p>Layouts should feel intentional, not randomly assembled.</p>
+              </div>
+              <div>
+                <strong>Responsive-first</strong>
+                <p>Desktop and mobile should both feel planned from the start.</p>
+              </div>
+              <div>
+                <strong>Always improving</strong>
+                <p>Each project is a chance to push polish a little further.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Skills</p>
+          <h2>Tools I use to shape the web</h2>
+          <p>
+            These are the technologies I'm currently using and strengthening
+            through hands-on projects.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card panel" data-reveal>
+            <img src="assets/html5-logo-31813.png" alt="HTML5 logo" />
+            <div>
+              <h3>HTML5</h3>
+              <p>Semantic structure, accessible content flow, and clean markup.</p>
+            </div>
+          </article>
+
+          <article class="skill-card panel" data-reveal>
+            <img src="assets/css3_icon.png" alt="CSS3 logo" />
+            <div>
+              <h3>CSS3</h3>
+              <p>Responsive layout systems, visual polish, and animated detail.</p>
+            </div>
+          </article>
+
+          <article class="skill-card panel" data-reveal>
+            <img src="assets/javascript-39417.png" alt="JavaScript logo" />
+            <div>
+              <h3>JavaScript</h3>
+              <p>DOM interaction, dynamic behavior, sliders, and UI logic.</p>
+            </div>
+          </article>
+
+          <article class="skill-card panel" data-reveal>
+            <img src="assets/react native_icon.png" alt="React logo" />
+            <div>
+              <h3>React</h3>
+              <p>Component-based thinking and modern frontend architecture.</p>
+            </div>
+          </article>
+
+          <article class="skill-card panel" data-reveal>
+            <img src="assets/logo_nodejs_icon.png" alt="Node.js logo" />
+            <div>
+              <h3>Node.js</h3>
+              <p>Backend basics, tooling, and practical full-stack growth.</p>
+            </div>
+          </article>
+
+          <article class="skill-card panel" data-reveal>
+            <img src="assets/5848152fcef1014c0b5e4967.png" alt="Python logo" />
+            <div>
+              <h3>Python</h3>
+              <p>Problem solving, scripting, and exploring broader development.</p>
+            </div>
+          </article>
+
+          <article class="skill-card panel" data-reveal>
+            <img src="assets/4844510.png" alt="Java logo" />
+            <div>
+              <h3>Java</h3>
+              <p>Foundations in structured programming and object-oriented logic.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="projects-head" data-reveal>
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Work that reflects how I think</h2>
+            <p>
+              A few project directions that show my interest in product-style
+              interfaces, practical frontend builds, and continuous improvement.
+            </p>
+          </div>
+
+          <div class="projects-controls">
+            <button type="button" class="control-button" data-project-prev>
+              Prev
+            </button>
+            <button type="button" class="control-button" data-project-next>
+              Next
+            </button>
+          </div>
+        </div>
+
+        <div class="projects-track" data-project-track>
+          <article class="project-card panel" data-reveal>
+            <div class="project-media">
+              <img
+                src="assets/image.png"
+                alt="Screenshot of a Flipkart-inspired UI project"
+              />
+            </div>
+            <div class="project-body">
+              <p class="project-type">UI Clone</p>
+              <h3>Flipkart Homepage Recreation</h3>
+              <p>
+                A recreation focused on navigation density, category cards,
+                promotional banners, and a marketplace-style visual hierarchy.
+              </p>
+              <div class="tag-row">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Layout Practice</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card panel" data-reveal>
+            <div class="project-media project-media-alt">
+              <img src="assets/Profile-pic.jpg" alt="Swastik Das portfolio preview" />
+            </div>
+            <div class="project-body">
+              <p class="project-type">Personal Brand</p>
+              <h3>Cinematic Portfolio Resume</h3>
+              <p>
+                A personal website concept with stronger storytelling, layered
+                visuals, responsive sections, and smoother interactions across
+                the page.
+              </p>
+              <div class="tag-row">
+                <span>Video Hero</span>
+                <span>Responsive UI</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card panel" data-reveal>
+            <div class="project-media project-media-stack">
+              <img src="assets/javascript-39417.png" alt="JavaScript logo" />
+              <img src="assets/react native_icon.png" alt="React logo" />
+              <img src="assets/logo_nodejs_icon.png" alt="Node.js logo" />
+            </div>
+            <div class="project-body">
+              <p class="project-type">Learning by Building</p>
+              <h3>Interactive Web Experiments</h3>
+              <p>
+                A growing collection of smaller frontend ideas that help me
+                improve component behavior, motion, responsiveness, and visual
+                consistency.
+              </p>
+              <div class="tag-row">
+                <span>React</span>
+                <span>Node</span>
+                <span>UI Practice</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="contact-card panel" data-reveal>
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build something better than average.</h2>
+          </div>
+          <p>
+            I'm interested in opportunities where I can keep improving as a
+            developer while contributing thoughtful UI work, strong effort, and
+            a real willingness to learn quickly.
+          </p>
+          <div class="contact-pills">
+            <span>Open to internships</span>
+            <span>Frontend collaborations</span>
+            <span>Portfolio projects</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Designed for Swastik Das. Built with HTML, CSS, and JavaScript.</p>
+      <p id="year"></p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
